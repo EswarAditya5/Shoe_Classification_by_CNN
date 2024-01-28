@@ -15,6 +15,10 @@ E-commerce has rapidly grown and their business strategies are completely based 
 
 **Test:** The test set consists of images belonging to all 3 categories of shoes in a single folder.
 
+<div align="center">
+  <img src="test images.png" alt="Alt Text">
+</div>
+
 ## Instructions:
 1. A train set should be used to feed the model.
 2. A test set should be used to predict labels for test data.
