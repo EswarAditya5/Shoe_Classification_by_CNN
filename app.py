@@ -4,7 +4,7 @@ from PIL import Image
 import numpy as np
 
 # Load the pre-trained model
-model = tf.keras.models.load_model("shoe_classification_model.h5")
+model = load_model("shoe_classification_model.h5")
 
 # Define the shoe categories
 categories = ['Boots', 'Sandals', 'Slippers']  # Update with your categories
