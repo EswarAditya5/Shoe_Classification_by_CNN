@@ -7,6 +7,12 @@ import numpy as np
 # Load the pre-trained model
 model = load_model("shoe_classification_model.h5")
 
+# page setup
+st.set_page_config(
+    page_title="Shoe Classifier", 
+    page_icon="👟", 
+)
+
 # Define the shoe categories
 categories = ['Boots', 'Sandals', 'Slippers']  # Update with your categories
 
