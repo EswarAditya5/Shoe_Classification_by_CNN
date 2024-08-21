@@ -10,7 +10,8 @@ model = load_model("shoe_classification_model.h5")
 # Define the shoe categories
 categories = ['Boots', 'Sandals', 'Slippers']  # Update with your categories
 
-st.title('Shoe Category Classifier')
+# st.title('Shoe Category Classifier')
+st.title('Shoe Type Identifier')
 
 uploaded_image = st.file_uploader("Upload an image", type=["jpg", "jpeg", "png"])
 
